@@ -9,6 +9,10 @@ dep_lager_commit = 3.6.8
 
 DEP_PLUGINS = cowboy
 
+SHELL_OPTS = \
+  -s $(PROJECT) \
+  -config config/sys.config
+
 include erlang.mk
 
 ERLC_COMPILE_OPTS= +debug_info +'{parse_transform, lager_transform}'

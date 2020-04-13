@@ -1,3 +1,33 @@
+### shell 12/4/20
+
+```
+SHELL_OPTS = \
+  -s $(PROJECT) \
+  -config config/sys.config
+```
+
+```
+Erlang/OTP 21 [erts-10.1] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [hipe]
+
+{"init terminating in do_boot",{undef,[{hello_erlang,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
+init terminating in do_boot ({undef,[{hello_erlang,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]})
+
+Crash dump is being written to: erl_crash.dump...done
+erlang.mk:7177: recipe for target 'shell' failed
+make: *** [shell] Error 1
+```
+
+##### src/hello_erlang.erl
+
+```
+-module(hello_erlang).
+
+-export([start/0]).
+
+start() ->
+    application:ensure_all_started(?MODULE).
+```
+
 ### lager 12/4/20
 
 - changed `config/vm.args` to use `sname`

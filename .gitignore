@@ -3,3 +3,5 @@ _rel
 *.d
 ebin
 deps
+erl_crash.dump
+log/
