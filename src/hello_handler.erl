@@ -8,5 +8,6 @@ init(Req0, State) ->
 			   #{<<"content-type">> => <<"text/plain">>},
 			   <<"Hello Erlang!">>,
 			   Req0),
+    lager:info("Hello Erlang!"),
     {ok, Req, State}.
 

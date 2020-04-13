@@ -1,3 +1,2 @@
--name hello_erlang@127.0.0.1
--setcookie hello_erlang
+-sname hello_erlang
 -heart
