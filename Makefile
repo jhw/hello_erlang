@@ -11,7 +11,7 @@ DEP_PLUGINS = cowboy
 
 SHELL_OPTS = \
   -s $(PROJECT) \
-  -config config/sys.config
+  -config dev.config
 
 include erlang.mk
 

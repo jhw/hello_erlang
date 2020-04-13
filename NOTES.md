@@ -1,3 +1,10 @@
+### ignore_src 12/4/20
+
+##### relx.config
+
+```
+{include_src, false}.
+```
 ### shell 12/4/20
 
 ```
