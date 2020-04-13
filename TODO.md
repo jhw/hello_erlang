@@ -1,13 +1,13 @@
 ### short
 
-- sync [SHELL_DEPS]
-- echo handler
 - move port to config
-  - separate dev.config
+- echo handler
 - kerl
 
 ### done
 
+- sync [SHELL_DEPS]
+- separate dev.config
 - don't include src in release
 - dev mode
 - lager

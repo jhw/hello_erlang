@@ -1,3 +1,14 @@
+### shell 12/4/20
+
+```
+SHELL_DEPS = sync
+
+SHELL_OPTS = \
+  -s $(PROJECT) \
+  -s sync \
+  -config dev.config
+```
+
 ### ignore_src 12/4/20
 
 ##### relx.config
