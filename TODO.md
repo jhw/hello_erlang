@@ -1,11 +1,11 @@
 ### short
 
-- move port to config
 - echo handler
 - kerl
 
 ### done
 
+- move port to config
 - sync [SHELL_DEPS]
 - separate dev.config
 - don't include src in release
