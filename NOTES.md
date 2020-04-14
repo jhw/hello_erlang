@@ -1,3 +1,8 @@
+### articles 12/4/20
+
+- https://www.pluralsight.com/guides/10-essential-erlang-tools-for-erlang-developers
+- https://medium.com/erlang-battleground/erlang-lessons-fe800c51af4f
+
 ### shell 12/4/20
 
 ```

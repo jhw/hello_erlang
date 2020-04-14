@@ -1,11 +1,11 @@
 ### short
 
 - github project
-- echo handler
-- kerl
+- use start/stop scripts
 
 ### done
 
+- echo handler
 - move port to config
 - sync [SHELL_DEPS]
 - separate dev.config
