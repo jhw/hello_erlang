@@ -1,4 +1,12 @@
-### articles 12/4/20
+### start/stop release 13/4/20
+
+```
+justin@justin-XPS-13-9360:~/work/hello_erlang$ ./_rel/hello_erlang_release/bin/hello_erlang_release start
+justin@justin-XPS-13-9360:~/work/hello_erlang$ ./_rel/hello_erlang_release/bin/hello_erlang_release stop
+ok
+```
+
+### articles 13/4/20
 
 - https://www.pluralsight.com/guides/10-essential-erlang-tools-for-erlang-developers
 - https://medium.com/erlang-battleground/erlang-lessons-fe800c51af4f
