@@ -1,10 +1,9 @@
 ### short
 
-- github project
-- use start/stop scripts
-
 ### done
 
+- github project
+- use start/stop scripts
 - echo handler
 - move port to config
 - sync [SHELL_DEPS]
