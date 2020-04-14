@@ -9,8 +9,9 @@ start(_Type, _Args) ->
 				      {'_', [{"/echo", echo_handler, []}]},
 				      {'_', [{"/", hello_handler, []}]}
 				     ]),
+    {_, Port}=application:get_env(hello_erlang, port),
     {ok, _} = cowboy:start_clear(my_http_listener,
-				 [{port, 8080}],
+				 [{port, Port}],
 				 #{env => #{dispatch => Dispatch}}
 				),
     hello_erlang_sup:start_link().
